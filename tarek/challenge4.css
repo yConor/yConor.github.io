@@ -1,0 +1,68 @@
+body {
+    background-color: rgb(167, 120, 19);
+  }
+  h1 {
+    color: rgb(241, 149, 11);
+    background-color: rgb(112, 72, 11);
+    text-align:center
+  }
+  p1 {
+    color: rgb(241, 149, 11);
+    background-color: rgb(112, 72, 11);
+    text-align: center
+    font-size 100px;
+    font-family: Arial, sans-serif;
+    font-weight: 600;
+  }
+  
+  img {
+    display: block;
+    margin: 0 auto;
+    background-color: rgb(6, 46, 9);
+      }
+
+  #Context {
+    color: aliceblue;
+    background-color: rgb(112, 72, 11);
+    text-align:left
+    font-size 50px;
+    font-family: Arial, sans-serif;
+    font-weight: 800;
+  }
+
+  #Question {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    text-align:left
+    font-size 50px;
+    font-family: Arial, sans-serif;
+    font-weight: 800;
+    text-align:center;
+  }
+
+  
+
+  #Answer1 {
+    color: black;
+    background-color: aliceblue;
+    font-size: medium;
+    font-weight: 400;
+  }
+  #Answer2 {
+    color: black;
+    background-color: darkgray;
+    font-size: medium;
+    font-weight: 400;
+  }
+  #Answer3 {
+    color: black;
+    background-color: aliceblue;
+    font-size: medium;
+    font-weight: 400;
+  }
+  #Answer4 {
+    color: black;
+    background-color: darkgray;
+    font-size: medium;
+    font-weight: 400;
+  }

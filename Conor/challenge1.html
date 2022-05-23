@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+        .middle {
+            padding: 10px;
+            margin: 10px;
+            background-color: rgb(0, 90, 97);
+            color: rgb(0, 0, 0);
+            display: flex;
+            border: 2px solid black;
+            width: 680px;
+            height: 750px;   
+        }
+
+        img {
+            float: right;
+            padding: 10px;
+            margin: 10px;
+            display: flex;
+        }
+
+        .answers {
+            display: flex;
+            border: 2px solid rgb(255, 255, 255);
+            flex-direction: row;
+        }
+
+        .answers>div {
+            padding: 10px;
+            margin: 25px;
+            background-color: rgb(255, 255, 255);
+            color: white;
+        }
+
+        body {
+            background-color: forestgreen;
+        }
+
+        h1 {
+           color: rgb(241, 149, 11);
+           background-color: rgb(11, 70, 112);
+           text-align:center
+        }
+
+
+
+    </style>
+    </head>
+    <body>
+
+<h1>Well done, you passed the last challenge. Your journey continues, answer this question correctly and you might just escape the island!</h1>
+
+<div id="middle">
+        <img align = "center"  src="darkforest.jpg" alt= "Jungle" width="500" height="750"></img>
+<pre>
+    <code>
+        import java.util.Scanner;
+
+public class BoatTicket{
+    public static void main (String[] args) {
+        
+        Scanner scnr = new Scanner(System.in);
+
+        int customerAge;
+        String ageRange;
+        int ticketPrice;
+
+        System.out.println("Enter the age of the ticket holder")
+        customerAge = scnr.nextInt();
+
+        if ( (customerAge <= 4) && (customerAge >=0) ) {
+            ageRange = "Toddler/Infant";
+            ticketPrice = 5;
+        }
+
+        else if ( (customerAge <= 12) && (customerAge >=5) ) {
+            ageRange = "Child";
+            ticketPrice = 10;
+        }
+
+        else if ( (customerAge <= 19) && (customerAge >=13) ) {
+            ageRange = "Teenager";
+            ticketPrice = 15;
+        }
+
+        else if ( (customerAge <= 59) && (customerAge >=20) ) {
+            ageRange = "Adult";
+            ticketPrice = 30;
+        }
+
+        else if ( (customerAge <= 150) && (customerAge >=60) ) {
+            ageRange = "Senior";
+            ticketPrice = 20;
+        }
+
+        else
+        {
+            System.out.println("There is something wrong with the input age");
+        }
+
+        System.out.println("You are " + ageRange + "and your ticket price is $" + ticketPrice);
+
+    }
+
+}
+    </code>
+</pre>
+
+</div>
+
+<h1> What is the output of the code above if the input is 19?</h1>
+
+<div class="answers">
+<div>
+    <a href="../tarek/incorrect.html">There is something wrong with the input age</a>
+</div>
+<div>
+    <a href="../conor/challenge3.html">You are 19 and your ticket price is $15</a>
+</div>
+<div>
+    <a href="../tarek/incorrect.html">You are 25 and your ticket price is $15</a>
+</div>
+<div>
+    <a href="../tarek/incorrect.html">You are 70 and your ticket price is $20</a>
+</div>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(9, 80, 13);
+
+}
+
+p1 {
+    color: rgb(9, 80, 13);
+    font-size: larger;
+    font-weight: bold;
+    padding: 30px;
+}
+
+#text {
+    background-color: rgb(59, 224, 53);
+    text-align: center;
+    padding: 30px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: rgb(59, 224, 53);
+}
+
+#link {
+    padding: 30px;
+    background-color: rgb(59, 224, 53);
+    text-align: center;
+}

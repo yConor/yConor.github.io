@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="challenge4.css">
+</head>
+<body>
+<div id="heading">
+<h1 >You progress into the Cave...</h1>
+  </div>
+  <br>
+<img   src="../darkcave.jpg" alt="Dark Cave"  width="500" height="200" ></img>
+<br>
+
+<p1 >Will you find your way out?
+  Answer carefully . . . <br>
+The code outputs the input in reverse</p1> 
+
+
+<div id="Context">
+  <br>
+  import java.util.Scanner;<br>
+
+public class LabProgram {<br>
+   public static void main(String[] args) {<br>
+      Scanner scnr = new Scanner(System.in);<br>
+      int[] userList = new int[20];<br>   
+      int numElements;<br>                    
+
+      numElements = scnr.nextInt();<br>
+      <br>
+      for (int i = 0; i < numElements; i++)<br>
+    {  userList[i] = scnr.nextInt();   }<br>
+    <br>
+    for (int i = numElements-1; i >= 0; i-- ) {<br>
+       System.out.print(userList[i]); <br>
+      System.out.print(","); }<br>
+      System.out.println("");<br>
+   }<br>
+} <br>
+<br>
+</div>
+  <br>
+  <div id="Question">
+If the input is "4 5 7 10 30" what is numElements equal to?
+  </div>
+
+  <div id="Answer1">
+<a href="incorrect.html"> 5,7,10,30 </a>
+  </div>
+  <div id="Answer2">
+    <a href="incorrect.html"> 5 </a>
+  </div>
+  <div id="Answer3">
+    <a href="incorrect.html"> 30,10,7,5, </a>
+  </div>
+  <div id="Answer4">
+<a href="../tarek/congrats.html"> 4 </a>
+  </div>
+
+</body>
+</html>

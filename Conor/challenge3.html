@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+    background-color: rgb(5, 74, 2);
+  }
+
+  h1 {
+    color: rgb(0, 0, 0);
+    background-color: rgb(112, 72, 11);
+    text-align: center;
+  }
+  #coding {
+    color: rgb(0, 0, 0);
+    background-color: rgb(112, 72, 11);
+    text-align:left
+    font-size 50px;
+    font-family: Arial, sans-serif;
+    font-weight: 800;
+  }
+  
+  img {
+    display: block;
+    margin: 0 auto;
+    background-color: rgb(6, 46, 9);
+  }
+
+  .answers {
+            display: flex;
+            border: 2px solid black;
+            flex-direction: row;
+        }
+
+        .answers>div {
+            padding: 10px;
+            margin: 37px;
+            background-color: black;
+            color: white;
+        }
+
+        p {
+            color: rgb(241, 149, 11);
+            background-color: rgb(112, 72, 11);
+            text-align: center;
+            font-size 200px;
+        }
+
+
+
+
+    </style>
+  
+</head>
+<body>
+<div id="heading">
+<h1 >Congratulations you have found your way to the next part of the Jungle</h1>
+<h1> Answer this question correctly and you could escape!</h1>
+  </div>
+  <br>
+<img   src="tropicaljungle.jpg" alt="jungle"  width="500" height="200" ></img>
+<br>
+<div id="coding">
+<pre>
+    <code>
+        import java.util.Scanner;
+        public class boatSeats {
+            public static void main(String[] args) {
+                Scanner scnr = new Scanner(System.in);
+                int total = 0;
+                int availableSeats;
+                int seatRows;
+        
+                seatRows = scnr.nextInt();
+        
+                for (int i = 0; i < seatRows; ++i) {
+                    availableSeats = scnr.nextInt();
+                    total = total + availableSeats;
+                }
+        
+                System.out.println("There are " + total + " seats left on the escape boat.");
+        
+            }  
+        }  
+    </code>
+</pre>
+</div>
+
+<h1>If "5 3 4 3 2 1" is inputted into the code above, what is the output? </h1>
+
+<div class="answers">
+    <div>
+        <a href="../tarek/incorrect.html">There are 18 seats left on the escape boat.</a>
+    </div>
+    <div>
+        <a href="../tarek/incorrect.html">There are 16 seats left on the escape boat.</a>
+    </div>
+    <div>
+        <a href="../tarek/challenge4.html">There are 13 seats left on the escape boat.</a>
+    </div>
+    <div>
+        <a href="../tarek/incorrect.html">There are 14 seats left on the escape boat.</a>
+    </div>
+    </div>
+</body>
+</html>
